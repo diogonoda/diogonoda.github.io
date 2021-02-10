@@ -3,36 +3,68 @@
   <cards />
   <p>
 Squashing Git Commits
+  </p>
+  <p>
 Squashing commits from command line
 
+  </p>
+  <p>
 Squash irrelevant commits in order to keep a cleaner commit history.
 
+  </p>
+  <p>
 ~~~ bash
 $ git rebase -i HEAD~2
 ~~~
 
+  </p>
+  <p>
 ![rebase-screenshot-1](/assets/img/git/rebase-screenshot-1.png)
 
+  </p>
+  <p>
 Then choose squash for the line 2 (latest commit)
 
+  </p>
+  <p>
 ![rebase-screenshot-2](/assets/img/git/rebase-screenshot-2.png)
 
+  </p>
+  <p>
 After you save and exit, git will ask you to edit the commit message
 
+  </p>
+  <p>
 ![rebase-screenshot-3](/assets/img/git/rebase-screenshot-3.png)
 
+  </p>
+  <p>
 Edit the commit message
 
+  </p>
+  <p>
 ![rebase-screenshot-4](/assets/img/git/rebase-screenshot-4.png)
 
+  </p>
+  <p>
 Save and exit, and it's done!
 
+  </p>
+  <p>
 You can check the git logs and you'll see the new squashed commit
 
+  </p>
+  <p>
 ![rebase-screenshot-5](/assets/img/git/rebase-screenshot-5.png)
 
+  </p>
+  <p>
 Reference links:
+  </p>
+  <p>
 tags: [git]
+  </p>
+  <p>
 author: Diogo Noda
   </p>
   <div class="flex justify-center py-10 bg-brand-gray">
