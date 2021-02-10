@@ -1,6 +1,9 @@
+// https://coolors.co/bcd2ee-9b7ede-832161-52050a-76e7cd
+// b98b73,cb997e,ddbea9,ffe8d6,d4c7b0,b7b7a4,a5a58d,6b705c,3f4238
+
 module.exports = {
   brand: {
-    main: '#EF4983',
+    main: '#b98b73',
     gray: '#F9F9F9',
     info: '#8296FB',
     graydark: '#C0BCB0',
