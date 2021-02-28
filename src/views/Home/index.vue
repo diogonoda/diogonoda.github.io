@@ -1,13 +1,14 @@
 <template>
   <custom-header />
   <cards />
-  <p>
-Squashing Git Commits
-  </p>
-  <p>
-Squashing commits from command line
-
-  </p>
+  <div class="flex justify-center">
+    <div class="py-6 font-black text-3xl">
+      <p>Squashing Git Commits</p>
+    </div>
+  </div>
+  <div>
+    <p>Squashing commits from command line</p>
+  </div>
   <p>
 Squash irrelevant commits in order to keep a cleaner commit history.
 
@@ -74,9 +75,10 @@ author: Diogo Noda
 
 <script>
 import CustomHeader from './CustomHeader.vue'
+import Cards from './Cards.vue'
 
 export default {
-  components: { CustomHeader },
+  components: { CustomHeader, Cards },
   setup () {
   }
 }
